@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Papikondalu">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerPadding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/gi1"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/gt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Papikondalu"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt1"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Papikondalu mountain range runs along the River Godavari (Western Godavari) and is located in Rajahmundry, Andhra Pradesh. Papikondalu is a sheer fest to the eyes in terms of its scenic beauty. As the hills become closer and closer to the visitor, the width of the mighty Godavari becomes narrower. In accordance with this view resembling the middle partition of a woman's hair, it was initially named as 'Papidi' Kondalu- Paidi in Telugu means the middle partition of a woman’s hair. Later, it came to be known as Papikondalu in the local language. The river narrowing, its twists and turns along with the Papi Hills form a breathtaking visual experience. Its beauty is often compared to that of Kashmir as the area around the ranges is quaint and bountiful with nature. The ranges also boast of waterfalls at Munivaatnam. "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/gi2"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/gt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt3"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Papikondalu, in the West Godavari district, is known for its mountain ranges and scenic views. The hills run along the Godavari River.Boating at all points in the state had been stopped following an accident in 2019 in the East Godavari district.According to media reports, prior to relaunching the boating services, the government has set up several control rooms across the state to ensure the safety of passengers and that ferry operators follow all the precautionary norms.On July 1, the state’s tourism minister, Muttamsetti Srinivasa Rao, relaunched the ferry service from Poshamma Gandi ferry point in Devipatnam. "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gt5"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/gb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="on"
+                android:text="Direction" />
+
+            <TextView
+                android:id="@+id/gt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/gt6"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi3"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/arrow_down_float" />
+
+            <TextView
+                android:id="@+id/gt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Kotilingeshwara Temple"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Local legend claims that a sage named Gautama was cursed by Lord Indra, and to rid himself off the curse, the sage placed a ‘Shiva-lingam’ (representation of the Lord Shiva) and prayed to the Lord. He anointed the lingam with waters of 10 million rivers. The same ‘Shiva-lingam’ now rests in the precinct of the temples. The Kotilingeswara Temple is popular with believers of Lord Shiva and the festival of Maha Shivratri is celebrated in the temple with a lot of fervour. "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onc"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/gt9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Markandeya Temple"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi4"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/btn_dialog" />
+
+            <TextView
+                android:id="@+id/gt10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Previously, it was considered that the Markandeya Temple was built on the ruins of an ancient mosque. It was later proven that the ruins were that of a temple of Lord Shiva. Many devotees make the trip to the Markandeya Temple for its deep, religious resonance. The temple attracts people from all-over India and the world to itself. "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncl"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/gt11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt11"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi5"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="FabHotel Tanisha"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onh"
+                android:text="Directions" />
+
+            <ImageView
+                android:id="@+id/gi6"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SHREE KRISHNA RESIDENCY"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onr"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/t18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t18"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi7"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/charminarf" />
+
+            <TextView
+                android:id="@+id/it"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/it"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncm"
+                android:text="Click here" />
+
+            <ImageView
+                android:id="@+id/gi8"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Travel Triangle"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncmp"
+                android:text="Directions" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MallelaTheertham">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerPadding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/gi1"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/gt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="MALELLA THERTHAM"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt1"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Situated at a distance of about 58 km from Srisailam, Mallela Theertham waterfall is considered to be one of the top tourist places in Telangana, you must visit. Not only this, it is also believed that the water of Mallela Theertham waterfall is holy water. If the beliefs are to believed then, it is said that a number of sages have performed penances at the spot of the waterfall and prayed to Lord Shiva. Some people even say that Lord Shiva himself appeared at the spot before many devotees. It is also rumoured that during the summer seasons many tigers visit the place to drink water. No matter whether these beliefs are just rumours or the truth, any which ways, the waterfall is a good weekend getaway if you are planning to spend some quality time with your friends or family."
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/gi2"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/gt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt3"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The water in this fall is believed to be holy water. The belief is that many sages performed penances in this fall for Lord Siva and himself appeared before many devotees. The water comes from a small rivulet flows through the forest to meet River Krishna. The perfect time to visit this falls are from October to February. During this time happens the best flow."
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gt5"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/gb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="on"
+                android:text="Direction" />
+
+            <TextView
+                android:id="@+id/gt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/gt6"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi3"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/arrow_down_float" />
+
+            <TextView
+                android:id="@+id/gt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Kadali Vanam Cave"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="At a distance of 22 Kms from Srisailam and 12 Kms from Akka Mahadevi Caves, Kadalivanam Caves are natural caves with lot of history attached to it. After reaching Akka Mahadevi Caves on Motor Boat from Srisailam, trekking through multiple mountains for a distance of 12 Kms will take you to this place.This is a huge cave like natural rock shelter which can accommodate nearly 500 persons comfortably. Near the rock shelter flows a stream and evidences of stone age man in the form of stone tools were discovered. Akkal Maharaj, who is a famous saint in Maharashtra did penance at this place for several years before heading to Maharashtra.Akkamahadevi is said to have spent her last days at this place. It is said that Bhagavan Dattatreya and his other incarnations are believed to have been dwelling at this place. This excellent spot is considered to be extremely sacred by devotees. Many devotees from Karnataka and Maharastra also visit this place during their trip to Srisailam.  "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onc"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/gt9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Octopus Viewpoint"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi4"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/btn_dialog" />
+
+            <TextView
+                android:id="@+id/gt10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Octopus View Point is one of the latest additions to the tourist attractions in Srisailam in Andhra Pradesh. The view point is located 5 km before Domalpenta and offers amazing views of the adjoining forests, enchanting gorges and the mesmerising backwaters of Krishna River. Octopus View Point has been named so because of Krishna River down below that looks like an octopus spread between the hillocks. It provides a spectacular bird’s eye view of the entire valley below. In addition to that, there is a regular safari tour conducted by the reserve that is the major highlight of the place. "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncl"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/gt11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt11"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi5"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="MALLIKARJUNA SADAN"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onh"
+                android:text="Directions" />
+
+            <ImageView
+                android:id="@+id/gi6"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="GOLCONDA HOTEL"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onr"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/t18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t18"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi7"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/charminarf" />
+
+            <TextView
+                android:id="@+id/it"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/it"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncm"
+                android:text="Click here" />
+
+            <ImageView
+                android:id="@+id/gi8"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Travel Triangle"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncmp"
+                android:text="Directions" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

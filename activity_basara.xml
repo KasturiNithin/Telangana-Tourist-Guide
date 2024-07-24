@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Basara">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerPadding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/gi1"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/gt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Basara"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt1"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="The temple is dedicated to Goddess Saraswati, the goddess of knowledge. The temple also houses the idols of Goddess Lakshmi and Kali. As per history, Bijialudu a Karnataka king, who ruled the province of Nandagiri with Nanded as his capital in the 6th century, constructed the temple at Basara.  Gnana Saraswati Temple (Telugu: శ్రీ జ్ఞాన సరస్వతి దేవస్థానము) is a Hindu temple of Goddess Saraswati located on the banks of Godavari River at Basar, Telangana, India.[1] It is one of the two famous Saraswati temples in the Indian subcontinent, the other being Sharada Peeth. Saraswati is the Hindu Goddess of knowledge and learning. Children are brought to the temple for the learning ceremony called as Akshara abyasam "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/gi2"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/gt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt3"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='Along the banks of the river Saraswati, the statue of the Goddess stands tall and magnificent above the hillock. It is a beautiful sight, thanks to its architectural excellence. The temple is located in the salubrious environment, and there are a lot of shrines for several other deities. Goddess Kali’s statue has been installed in this temple. Goddess Lakshmi’s statue is present here and it attracts a lot of devotees. One could also worship the holy trinity. The temple has a hall with a lot of pillars. There are several inscriptions in the temple, and various carvings are also found here.According to Mahabharatha, Maharishi Vyas and his disciples and sage Viswamitra decided to settle down in a cool and serene atmosphere after the Kurukshetra War. In the quest for a peaceful abode, he came to Dandaka forest and, pleased with serenity of the region, selected this place. Since Maharishi Vyasa spent considerable time in prayers, the place was then called "Vasara" and turned into Basara due to the influence of the Marathi language in this region.[citation needed '
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gt5"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/gb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="on"
+                android:text="Direction" />
+
+            <TextView
+                android:id="@+id/gt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/gt6"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi3"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/arrow_down_float" />
+
+            <TextView
+                android:id="@+id/gt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Local legend claims that a sage named Gautama was cursed by Lord Indra, and to rid himself off the curse, the sage placed a ‘Shiva-lingam’ (representation of the Lord Shiva) and prayed to the Lord. He anointed the lingam with waters of 10 million rivers. The same ‘Shiva-lingam’ now rests in the precinct of the temples. The Kotilingeswara Temple is popular with believers of Lord Shiva and the festival of Maha Shivratri is celebrated in the temple with a lot of fervour. "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onc"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/gt9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Markandeya Temple"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi4"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/btn_dialog" />
+
+            <TextView
+                android:id="@+id/gt10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Previously, it was considered that the Markandeya Temple was built on the ruins of an ancient mosque. It was later proven that the ruins were that of a temple of Lord Shiva. Many devotees make the trip to the Markandeya Temple for its deep, religious resonance. The temple attracts people from all-over India and the world to itself. "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncl"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/gt11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt11"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi5"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="FabHotel Tanisha"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onh"
+                android:text="Directions" />
+
+            <ImageView
+                android:id="@+id/gi6"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SHREE KRISHNA RESIDENCY"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onr"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/t18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t18"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi7"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/charminarf" />
+
+            <TextView
+                android:id="@+id/it"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/it"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncm"
+                android:text="Click here" />
+
+            <ImageView
+                android:id="@+id/gi8"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Travel Triangle"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncmp"
+                android:text="Directions" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

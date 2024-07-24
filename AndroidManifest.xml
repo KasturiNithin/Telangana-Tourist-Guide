@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.touristguide">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/play_store_512"
+        android:label="My Personal Chef"
+        android:roundIcon="@drawable/play_store_512"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TouristGuide">
+        <activity
+            android:name=".res"
+            android:exported="false" />
+        <activity
+            android:name=".badam"
+            android:exported="false" />
+        <activity
+            android:name=".ARISELU"
+            android:exported="false" />
+        <activity
+            android:name=".RASMALAI"
+            android:exported="false" />
+        <activity
+            android:name=".gulab"
+            android:exported="false" />
+        <activity
+            android:name=".bhel"
+            android:exported="false" />
+        <activity
+            android:name=".pota"
+            android:exported="false" />
+        <activity
+            android:name=".tomato"
+            android:exported="false" />
+        <activity
+            android:name=".chiken"
+            android:exported="false" />
+        <activity
+            android:name=".paneer"
+            android:exported="false" />
+        <activity
+            android:name=".briyani"
+            android:exported="false" />
+        <activity
+            android:name=".bread"
+            android:exported="false" />
+        <activity
+            android:name=".roti"
+            android:exported="false" />
+        <activity
+            android:name=".Potato"
+            android:exported="false" />
+        <activity
+            android:name=".dosa"
+            android:exported="false" />
+        <activity
+            android:name=".idly"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".loadingp"
+            android:exported="false" />
+        <activity
+            android:name=".PochampallyVillage"
+            android:exported="false"
+            android:parentActivityName=".Turistplaces" />
+        <activity
+            android:name=".Basara"
+            android:exported="false"
+            android:parentActivityName=".Turistplaces" />
+        <activity
+            android:name=".Papikondalu"
+            android:exported="false"
+            android:parentActivityName=".Turistplaces" />
+        <activity
+            android:name=".MallelaTheertham"
+            android:exported="false" />
+        <activity
+            android:name=".MecdakChurch"
+            android:exported="false"
+            android:parentActivityName=".Turistplaces" />
+        <activity
+            android:name=".BirlaMandir"
+            android:exported="false"
+            android:label="Snacks"
+            android:parentActivityName=".Turistplaces" />
+        <activity
+            android:name=".GOLCONDA"
+            android:exported="false"
+            android:label="Meals"
+            android:parentActivityName=".Turistplaces" />
+        <activity
+            android:name=".Charminar"
+            android:exported="false"
+            android:label="BreakFast"
+            android:parentActivityName=".Turistplaces" />
+        <activity
+            android:name=".Turistplaces"
+            android:exported="false"
+            android:label="Select a Category"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

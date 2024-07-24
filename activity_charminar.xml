@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Charminar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerPadding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:showDividers="end">
+
+            <ImageView
+                android:id="@+id/ci"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="70dp"
+                android:text="@string/t2"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:padding="10dp"
+                android:text="@string/t3"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/c2"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/t4"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/t7"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Direction" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="100dp"
+                android:text="@string/t6"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/c3"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/t9"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/t10"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/t11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/t11"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/t12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t12"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/c4"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/t14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/t14"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/cb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/t15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t15"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/c5"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:id="@+id/t16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t16"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/t17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textview"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/c6"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/cb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/t18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t18"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/c7"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/charminarf" />
+
+            <TextView
+                android:id="@+id/it"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/it"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onc"
+                android:text="Click here" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

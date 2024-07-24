@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PochampallyVillage">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerPadding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/gi1"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/gt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Pochampally village"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt1"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="On 18 April 1951, the historic day of the very genesis of the Bhoodan movement, Vinoba Bhave entered the Pochampally Mandal in Nalgonda district, the centre of Communist activity. The organisers had arranged Vinoba's stay at Pochampally, a large village with about 700 families, of whom two-third were landless. Pochampally villagers gave Vinoba a warm welcome. By early afternoon villagers began to gather around Vinoba at Vinoba's cottage. The villagers asked for eighty acres of land, forty wet, forty dry for forty families that would be enough. Then Vinoba asked,&quot; If it is not possible to get land from the government, is there not something villagers themselves could do?&quot; To everyone's surprise, Pochampally Zamindhar V. Ramachandra Reddy got up and said in a rather excited voice: &quot;I will give you 1000 acres for these people&quot;. his promise to offer 1000 acres of land to the villagers. This incident which is neither planned nor imagined was the very genesis of the Bhoodan movement and it made Vinoba think that there in lay the potentiality of solving the land problem of India. This movement later on developed into a village gift or Gramdan movement. As the huge, massive and magnificent movement called Bhoodan Movement was born in this Pochampally, the village was renamed to Bhoodan Pochampally. In 1999, the weaving industry of Bhoodan Pochampally came to limelight when a young weaver Chithakindhi Mallesham developed a machine for automating the time-consuming, laborious and painful Asu process of winding of yarn before the dyeing and weaving is done. The innovation was recognized by National Innovation Foundation – India.[5] "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/gi2"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/gt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt3"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Before weaving became a flourishing occupation in Pochampally, it was renowned for producing bangles which were sold in and around Hyderabad. Historically, Pochampally was known for its cotton textiles called as “SOOSELU” (20s cotton fabric). In the 1950s and 1960s, cotton sarees were being produced in Pochampally. During the 1950s with the efforts of Andhra Pradesh leaders like Sri Konda Lakshman Bapuji, Sri Pragada Kotaiya, Sri Guntaka Narasiya and others, weavers started benefiting under co-operative movement and Handloom Cooperative Society started in Koyallagudem which is 20 kms away from Pochampally. Weavers of Pochampally found it difficult to bring raw material and deliver finished goods on foot all the way to Koyallagudem. So in the year 1952 they opened a branch at Pochampally, which became an independent society in 1955. Pochampally rumals were exhibited in All India Handicrafts exhibition, Delhi in the year1954, where it attracted huge crowds and few of them also asked to try saris by using same technique of tie and dye. "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gt5"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/gb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="on"
+                android:text="Direction" />
+
+            <TextView
+                android:id="@+id/gt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/gt6"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi3"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/arrow_down_float" />
+
+            <TextView
+                android:id="@+id/gt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Local legend claims that a sage named Gautama was cursed by Lord Indra, and to rid himself off the curse, the sage placed a ‘Shiva-lingam’ (representation of the Lord Shiva) and prayed to the Lord. He anointed the lingam with waters of 10 million rivers. The same ‘Shiva-lingam’ now rests in the precinct of the temples. The Kotilingeswara Temple is popular with believers of Lord Shiva and the festival of Maha Shivratri is celebrated in the temple with a lot of fervour. "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onc"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/gt9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Markandeya Temple"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi4"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/btn_dialog" />
+
+            <TextView
+                android:id="@+id/gt10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Previously, it was considered that the Markandeya Temple was built on the ruins of an ancient mosque. It was later proven that the ruins were that of a temple of Lord Shiva. Many devotees make the trip to the Markandeya Temple for its deep, religious resonance. The temple attracts people from all-over India and the world to itself. "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncl"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/gt11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt11"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi5"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="FabHotel Tanisha"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onh"
+                android:text="Directions" />
+
+            <ImageView
+                android:id="@+id/gi6"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SHREE KRISHNA RESIDENCY"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onr"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/t18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t18"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi7"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/charminarf" />
+
+            <TextView
+                android:id="@+id/it"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/it"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncm"
+                android:text="Click here" />
+
+            <ImageView
+                android:id="@+id/gi8"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Travel Triangle"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncmp"
+                android:text="Directions" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

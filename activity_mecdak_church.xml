@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MecdakChurch">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerPadding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/gi1"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/gt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Medak Church"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt1"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Medak Cathedral is one of the most visited churches in South India, which was built by Charles Walker Fasnet of British Wesleyan Methodists and consecrated on 25 December 1924. It is the single largest diocese in Asia and the second-largest in the world after the Vatican located in Medak town.  Medak Cathedral is the seat of the Bishop in Medak for the Church of South India (comprising Wesleyan Methodist, Congregational and Anglican missionary societies). The church complex is an Architectural Marvel spread in more than 300 acres. The cathedral is 100 ft (30 m) wide and 200 ft (61 m) long, and conforms to the Gothic Revival style and can accommodate about 5,000 people at a time.  The mosaic tiles were imported from Britain and Italian masons were engaged for laying the decorative flooring. Massive pillars built with fine-hewn and well-dressed grey stone support the gallery and the whole edifice. The roof of the church is made sound-proof by means of hollow sponge material and has an impressive style of vaulting. The bell-tower is 175 ft (53 m) high and visible from few miles.  The biggest attraction of the Cathedral is its stained glass windows depicting different scenes from Christ’s life – Ascension behind the altar, Nativity in the west transept, and Crucifixion in the east transept. This magnificent Cathedral is the quintessence of impeccable craftsmanship and attracts more than three million tourists per annum from across the country. "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/gi2"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <TextView
+                android:id="@+id/gt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt3"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The cathedral is 100 ft (30 m) wide and 200 ft (61 m) long, and conforms to the Gothic Revival style. It can accommodate about 5,000 people at a time. The mosaic tiles were imported from Britain and are of six different colours. Italian masons from Bombay were engaged for laying the decorative flooring. Massive pillars built with fine-hewn and well dressed grey stone support the gallery and the whole edifice. The roof of the church is made sound-proof by means of hollow sponge material, and has an impressive style of vaulting. The surface of the vaulting has the shape of squares. The bell-tower is 175 ft (53 m) high. (It is said that when the nizam of Hyderabad discovered that the church would be higher than the Charminar, he made a vain bid to have its height reduced "
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gt5"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/gb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="on"
+                android:text="Direction" />
+
+            <TextView
+                android:id="@+id/gt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/gt6"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi3"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/arrow_down_float" />
+
+            <TextView
+                android:id="@+id/gt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="MEDAK FORT"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medak Fort is situated in Medak district in the Indian state of Telangana, about 100 kilometres from the state capital, Hyderabad.[1] Medak fort was constructed by the Kakatiya Kings. The fort lies to the north of the city and can be reached by road. It is a citadel built on a hillock that provided as a vantage point for the Kakatiya rulers in medieval India."
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onc"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/gt9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Wargal Saraswati Temple"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi4"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@android:drawable/btn_dialog" />
+
+            <TextView
+                android:id="@+id/gt10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wargal Saraswati Temple, or Sri Vidya Saraswati Temple, is a Hindu temple located in Siddipet district in Telangana, India. The deity of education in Hinduism is Goddess Saraswati. It is among the few temples of Saraswati in Telangana. It is maintained by the Kanchi Shanker Mutt. Construction of the temple complex was due to the efforts of Yayavaram Chandrashekhara Sharma, a scholar and adherent of Goddess Saraswati."
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncl"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/gt11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gt11"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi5"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Haritha Heritage Hotel"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onh"
+                android:text="Directions" />
+
+            <ImageView
+                android:id="@+id/gi6"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Inspection bunglow"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/gb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onr"
+                android:text="Directions" />
+
+            <TextView
+                android:id="@+id/t18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t18"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gi7"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/charminarf" />
+
+            <TextView
+                android:id="@+id/it"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/it"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncm"
+                android:text="Click here" />
+
+            <ImageView
+                android:id="@+id/gi8"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/gt14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Travel Triangle"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oncmp"
+                android:text="Directions" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

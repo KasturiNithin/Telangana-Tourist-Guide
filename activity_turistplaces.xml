@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Turistplaces">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:dividerPadding="30dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Select  a Place"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/i"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/charminarf" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="open"
+                android:text="@string/charminar" />
+
+            <ImageView
+                android:id="@+id/i2"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:contentDescription="TODO"
+                android:cropToPadding="true"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="openc"
+                android:text="Golconda Fort" />
+
+            <ImageView
+                android:id="@+id/i3"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="opencn"
+                android:text="Birlamandir" />
+
+            <ImageView
+                android:id="@+id/i4"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medak church"
+                android:onClick="ope"/>
+
+            <ImageView
+                android:id="@+id/i5"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="oem"
+                android:text="Mallela Theertham" />
+
+            <ImageView
+                android:id="@+id/i6"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="papi"
+                android:text="Papikondalu" />
+
+            <ImageView
+                android:id="@+id/i7"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="bas"
+                android:text="BASARA" />
+
+            <ImageView
+                android:id="@+id/i8"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="pp"
+                android:text="Pochampally Village" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
